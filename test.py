@@ -5,4 +5,3 @@ new file
 # key added2
 
 # new note
-changes
