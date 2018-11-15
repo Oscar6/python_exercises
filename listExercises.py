@@ -14,13 +14,10 @@
 # print(min(smallest))
 
 # 4. Even Numbers
-# def even_number(l):
-#     enum = [] #even number array
-#     for n in l:
-#         if n % 2 == 0:
-#             enum.append(n) # appends 0 to end of array if present
-#     return enum
-# print(even_number([10, 12, 9, 1, 8, 2, 0]))
+# evenNum = [10, 12, 9, 1, 8, 2]
+# for i in evenNum:
+#     if i % 2 == 0:
+#         print(i)
 
 # 5. Positive Numbers
 # pos = [10, -12, 9, -1, 8, -2, 0]
