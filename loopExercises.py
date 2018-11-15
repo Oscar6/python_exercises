@@ -19,6 +19,40 @@
 #     print ('*' * sqr)
 
 # 5. Print a Square II
-sqr = int(input('How big is the square?: '))
-for i in range(sqr):
-    print ('*' * sqr)
+# sqr = int(input('How big is the square?: '))
+# for i in range(sqr):
+#     print ('*' * sqr)
+
+# 6. Print a Box
+# boxW = int(input('Width?: '))
+# boxH = int(input('Height?: '))
+
+# for i in range(boxW):
+#     for j in range(boxH):
+#         print('*' if i in [0, boxW-1] or j in [0, boxH-1] else ' ', end='')
+#     print()
+
+# 7. Print a Triangle
+# def tri(i, x=0):
+#     if i == 0:
+#         return 0
+#     else:
+#         print(' ' * ( i + 1 ) + '*' * ( x * 2 + 1 ))
+#         return tri( i - 1, x + 1 )
+
+# tri(4)
+
+# 8. Print a Triangle II
+# height = int(input("Height of triangle: "))
+# count = 0
+
+# for i in range(height-1):
+#     print('*' + ' ' * count + '*')
+#     count += 1
+
+# print('*' * height)
+
+# 9. Multiplication Table
+# for x in range(1, 11):
+#     for y in range(1, 11):
+#         print(x, " x ", y , " = ", x * y)
