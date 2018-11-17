@@ -14,12 +14,15 @@
 
 ######## OR ########
 
-# textUser = input('Enter text: ')
-# arrayLength = len(textUser)
-# newText = ""
-# for i in textUser:
-#     newText += textUser[arrayLength - 1 - i]
-# print(newText)
+textUser = input('Enter text: ')
+arrayLength = len(textUser)
+
+newText = ""
+for i in textUser:
+    index = textUser.index(i)
+    print(index)
+    newText += textUser[arrayLength - 1 - index]
+print(newText)
 
 # 4. Leetspeak
 # paragraph = input('Enter some text: ').upper()

@@ -82,13 +82,12 @@ while guess != ranNum:
     elif guess > ranNum:
         print(guess, "is too high. Guess again")
         guess = int(input("Guess a number between 1 - 5: "))
-    
+
     switch = input("Do you want another try? (yes/no) ")
     if switch == 'yes':
         guess = int(input("Guess a number between 1 - 5: "))
     elif switch == 'no':
         print("Bye")
-        break
 
 if guess == ranNum:
     print("You guessed correctly")
