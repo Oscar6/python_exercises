@@ -69,31 +69,34 @@ import random
 ranNum = random.randint(1, 10)
 
 count = 0
-guess = int(input("Guess a number between 1 - 5: "))
+guess = int(input("Guess a number between 1 - 10: "))
 while guess != ranNum:
     count += 1
     if count == 5:
         print("You are out of guesses.")
+        break
+
+    if guess == ranNum:
+        print("You guessed correctly")
+        switch = input("Do you want to play again? (yes/no) ")
+    elif switch == 'yes':
+         guess = int(input("Guess a number between 1 - 10: "))
+    elif switch == 'no':
+        print("Bye")
 
     elif guess < ranNum:
-            print(guess, "is too low. Guess again")
-            guess = int(input("Guess a number between 1 - 5: "))
+        print(guess, "is too low. Guess again")
+        guess = int(input("Guess a number between 1 - 10: "))
 
     elif guess > ranNum:
         print(guess, "is too high. Guess again")
-        guess = int(input("Guess a number between 1 - 5: "))
+        guess = int(input("Guess a number between 1 - 10: "))
 
-    switch = input("Do you want another try? (yes/no) ")
-    if switch == 'yes':
-        guess = int(input("Guess a number between 1 - 5: "))
-    elif switch == 'no':
-        print("Bye")
+    # switch = input("Do you want another try? (yes/no) ")
+    # if switch == 'yes':
+    #     guess = int(input("Guess a number between 1 - 5: "))
+    # elif switch == 'no':
+    #     print("Bye")
 
-if guess == ranNum:
-    print("You guessed correctly")
-    switch = input("Do you want to play again? (yes/no) ")
-    if switch == 'yes':
-         guess = int(input("Guess a number between 1 - 5: "))
-    elif switch == 'no':
-        print("Bye")
+
         
