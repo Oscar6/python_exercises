@@ -86,14 +86,6 @@
 # plot.show()
 
 # 7. Degree Conversion
-import matplotlib.pyplot as plot
-
-Celsius = ('4')
-
-# print(Fahrenheit, 'F')
- 
-def celsius(F): 
-    return fahrenheit = celsius * 1.8 + 32
 
 xs = list(range(0, 0)) 
 ys = [] 
