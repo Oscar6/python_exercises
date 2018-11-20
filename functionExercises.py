@@ -86,12 +86,3 @@
 # plot.show()
 
 # 7. Degree Conversion
-
-xs = list(range(0, 0)) 
-ys = [] 
-
-for F in xs: 
-     ys.append(celsius(F)) 
-
-plot.plot(xs, ys) 
-plot.show()

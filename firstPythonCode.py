@@ -1,10 +1,10 @@
-# input();
+input();
 
-name = input("Tell me your name ")
+# name = input("Tell me your name")
 
-# int(string)
-# name = int(input("what is your age"))
-print("Hello " + name + "!")
+# # int(string)
+# age = int(input("what is your age"))
+# print(name)
 
 # print(age + 5)
 
